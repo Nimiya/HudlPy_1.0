@@ -35,6 +35,8 @@ C:\Users\DELL\AppData\Local\Programs\Python\Python310\Scripts
 
 ## *Running tests*
 
+Before running tests add the credentials (username and password) in this file 'strategy/loginCredentials.json'
+
 In terminal give
 
 './run.sh features/e2e/login.feature'
@@ -52,10 +54,10 @@ or
 behave -f allure_behave.formatter:AllureFormatter -o reports/json/ features
 allure generate reports/json --clean -o reports/allure-report
 
-## *To see report*
+## *To view report*
 
-Go to the location 'reports/allure-report/index.html'
-And open index.html file in any browser of your choice
+1. Go to the location 'reports/allure-report/index.html'
+2. And open index.html file in any browser of your choice
 
 ## *Framework Design*
 
