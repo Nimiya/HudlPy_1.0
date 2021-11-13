@@ -1,0 +1,115 @@
+{
+  "uid" : "78917ee49ea14421",
+  "name" : "Verify Main Page of Hudl",
+  "fullName" : "Log In: Verify Main Page of Hudl",
+  "historyId" : "221ce635a363a38c3a404b8f9b869e79",
+  "time" : {
+    "start" : 1636799722469,
+    "stop" : 1636799755869,
+    "duration" : 33400
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Element //a[contains(@data-qa-id,\"site-logo000\")] not found\n",
+  "statusTrace" : "  File \"C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\loginSteps.py\", line 11, in verifyHomePage\n    context.homePage.verifyHudlLogo()\n  File \"E:\\HudlPy_1.0\\pages\\homePage.py\", line 18, in verifyHudlLogo\n    Actions.is_displayed(HomePageElements.homepage_hudlLogo_img)\n  File \"E:\\HudlPy_1.0\\pages\\Actions\\actions.py\", line 13, in is_displayed\n    assert False, \"Element \" + self + \" not found\"\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Element //a[contains(@data-qa-id,\"site-logo000\")] not found\n",
+    "statusTrace" : "  File \"C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\loginSteps.py\", line 11, in verifyHomePage\n    context.homePage.verifyHudlLogo()\n  File \"E:\\HudlPy_1.0\\pages\\homePage.py\", line 18, in verifyHudlLogo\n    Actions.is_displayed(HomePageElements.homepage_hudlLogo_img)\n  File \"E:\\HudlPy_1.0\\pages\\Actions\\actions.py\", line 13, in is_displayed\n    assert False, \"Element \" + self + \" not found\"\n",
+    "steps" : [ {
+      "name" : "Given user is on the main page",
+      "time" : {
+        "start" : 1636799722473,
+        "stop" : 1636799725293,
+        "duration" : 2820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When user starts verifying the main page",
+      "time" : {
+        "start" : 1636799725293,
+        "stop" : 1636799755325,
+        "duration" : 30032
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Element //a[contains(@data-qa-id,\"site-logo000\")] not found\n",
+      "statusTrace" : "  File \"C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\loginSteps.py\", line 11, in verifyHomePage\n    context.homePage.verifyHudlLogo()\n  File \"E:\\HudlPy_1.0\\pages\\homePage.py\", line 18, in verifyHudlLogo\n    Actions.is_displayed(HomePageElements.homepage_hudlLogo_img)\n  File \"E:\\HudlPy_1.0\\pages\\Actions\\actions.py\", line 13, in is_displayed\n    assert False, \"Element \" + self + \" not found\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then user successfully verified all the links and icons in the main page",
+      "time" : {
+        "start" : 1636799755869,
+        "stop" : 1636799755869,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "26de4558183da51a",
+      "name" : "Screenshot",
+      "source" : "26de4558183da51a.png",
+      "type" : "image/png",
+      "size" : 689917
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Log In"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "78917ee49ea14421.json",
+  "parameterValues" : [ ]
+}

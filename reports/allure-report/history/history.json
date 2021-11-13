@@ -1,0 +1,22 @@
+{
+  "221ce635a363a38c3a404b8f9b869e79" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78917ee49ea14421",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Element //a[contains(@data-qa-id,\"site-logo000\")] not found\n",
+      "time" : {
+        "start" : 1636799722469,
+        "stop" : 1636799755869,
+        "duration" : 33400
+      }
+    } ]
+  }
+}
