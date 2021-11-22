@@ -1,4 +1,4 @@
-# HudlPy_1.0 (Hudly Python Behave BDD Cucumber Framework)
+# HudlPy_1.0 (Python Behave BDD Cucumber Framework)
 
 This repository contains automated test cases to validate login functionality of Hudl
 
